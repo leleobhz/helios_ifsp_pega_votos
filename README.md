@@ -1,6 +1,16 @@
 # helios_ifsp_pega_votos
 Pequeno sistema que a partir do nome da urna, imprime uma lista CSV dos resultados da votação. Próprio para eleição de 2020.
 
+## Requisitos
+
+Este script exige a aplicação jq. Para instalar:
+
+### Ubuntu
+```apt install -y jq```
+
+### Fedora/CentOS (Epel)
+```yum install -y jq```
+
 ## Exemplo
 
 ```
